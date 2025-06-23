@@ -11,3 +11,6 @@
 ## Detalle de uso de IA
 
 Se uso la IA "Deepseek" para ver el tema de organizacion de archivos del proyecto, rutas de los diferentes archivos
+
+## URL publica del proyecto
+https://teclab.uct.cl/~leandro.diaz/portafolio_crud_api/public.view.php
