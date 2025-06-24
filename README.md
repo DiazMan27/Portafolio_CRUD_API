@@ -4,7 +4,6 @@
 
 ## Tecnologias usadas
 - Php
-- Javascript
 - Css
 - Html
 
