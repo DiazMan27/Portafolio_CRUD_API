@@ -1,6 +1,10 @@
 <?php
 
-if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+/**
+ * CORS preflight
+ * Es un mecanismo de seguridad donde el navegador pide permiso antes de enviar ciertas solicitudes HTTP entre dominios diferentes 
+ */
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') { 
     http_response_code(200);
     exit();
 }
