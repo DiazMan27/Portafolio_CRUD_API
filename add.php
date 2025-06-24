@@ -39,7 +39,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <title>Agregar Proyecto | Panel de Administración</title>
   <!-- iconos de Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-
   <style>
     :root {
       --primary: #4361ee;
@@ -243,9 +242,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       }
     }
   </style>
-
 </head>
-
 <body>
   <div class="form-container">
     <div class="form-header">

@@ -13,8 +13,7 @@ $result = $conn->query("SELECT * FROM proyectos ORDER BY created_at DESC");  // 
   <title>Panel de Administración | Mis Proyectos</title>
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
-  
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet"> 
   <style>
     :root {
       --primary: #4361ee;
@@ -253,7 +252,6 @@ $result = $conn->query("SELECT * FROM proyectos ORDER BY created_at DESC");  // 
       }
     }
   </style>
-
 </head>
 <body>
 <div class="container"> 

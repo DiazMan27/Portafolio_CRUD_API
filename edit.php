@@ -211,7 +211,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // Verifica si la solicitud HTTP es 
       }
     }
   </style>
-
 </head>
 <body>
   <div class="form-container">

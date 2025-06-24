@@ -9,7 +9,6 @@ require_once 'db.php';
     <title>leandro diaz</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
-
     <style>
         :root {
             --primary: #4361ee;
@@ -285,162 +284,160 @@ require_once 'db.php';
             box-shadow: 0 6px 12px rgba(58, 12, 163, 0.2);
         }
 
-          /* Agrega estos estilos dentro del <style> existente */
-    .presentation {
-        background: var(--white);
-        border-radius: 15px;
-        padding: 2.5rem;
-        margin: 3rem 0;
-        box-shadow: var(--shadow);
-    }
-    
-    .profile-section {
-        display: flex;
-        gap: 3rem;
-        align-items: center;
-    }
-    
-    .profile-image {
-        flex: 0 0 250px;
-    }
-    
-    .profile-img {
-        width: 100%;
-        border-radius: 15px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    }
-    
-    .profile-content {
-        flex: 1;
-    }
-    
-    .profile-content h2 {
-        color: var(--primary-dark);
-        font-size: 2rem;
-        margin-bottom: 0.5rem;
-    }
-    
-    .profile-title {
-        color: var(--secondary);
-        font-size: 1.2rem;
-        font-weight: 600;
-        margin-bottom: 1.5rem;
-    }
-    
-    .profile-description p {
-        margin-bottom: 1rem;
-        color: var(--dark);
-        line-height: 1.7;
-    }
-    
-    .skills h3 {
-        margin: 1.5rem 0 1rem;
-        color: var(--primary);
-    }
-    
-    .skills-tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.7rem;
-    }
-    
-    .skill-tag {
-        background: linear-gradient(135deg, var(--primary-light), var(--success));
-        color: white;
-        padding: 0.4rem 1rem;
-        border-radius: 50px;
-        font-size: 0.85rem;
-        font-weight: 500;
-    }
-    
-    @media (max-width: 768px) {
+        .presentation {
+            background: var(--white);
+            border-radius: 15px;
+            padding: 2.5rem;
+            margin: 3rem 0;
+            box-shadow: var(--shadow);
+        }
+        
         .profile-section {
-            flex-direction: column;
-            gap: 2rem;
+            display: flex;
+            gap: 3rem;
+            align-items: center;
         }
         
         .profile-image {
-            flex: 0 0 auto;
-            width: 200px;
-            margin: 0 auto;
-        }
-    }
-
-        /* Para pantallas pequeñas */
-        @media (max-width: 480px) {
-            .project-buttons {
-                flex-direction: column;
-            }
-            
-            .project-btn {
-                width: 100%;
-            }
+            flex: 0 0 250px;
         }
         
-        /* Footer */
-        footer {
-            background: linear-gradient(135deg, var(--primary-dark), var(--dark));
-            color: white;
-            text-align: center;
-            padding: 3rem 0;
-            margin-top: 5rem;
-            position: relative;
-        }
-        
-        footer::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
+        .profile-img {
             width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, var(--glass), transparent);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
         
-        footer p {
-            position: relative;
-            font-size: 1rem;
+        .profile-content {
+            flex: 1;
         }
         
-        .social-links {
+        .profile-content h2 {
+            color: var(--primary-dark);
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .profile-title {
+            color: var(--secondary);
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        
+        .profile-description p {
+            margin-bottom: 1rem;
+            color: var(--dark);
+            line-height: 1.7;
+        }
+        
+        .skills h3 {
+            margin: 1.5rem 0 1rem;
+            color: var(--primary);
+        }
+        
+        .skills-tags {
             display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            margin: 1.5rem 0;
+            flex-wrap: wrap;
+            gap: 0.7rem;
         }
         
-        .social-links a {
+        .skill-tag {
+            background: linear-gradient(135deg, var(--primary-light), var(--success));
             color: white;
-            font-size: 1.5rem;
-            transition: transform 0.3s ease;
-        }
-        
-        .social-links a:hover {
-            transform: translateY(-5px) scale(1.1);
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
         }
         
         @media (max-width: 768px) {
-            .projects-grid {
-                grid-template-columns: 1fr;
+            .profile-section {
+                flex-direction: column;
                 gap: 2rem;
             }
             
-            h1 {
-                font-size: 2.2rem;
-                margin: 2rem 0;
-            }
-            
-            .header-container {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            .logo {
-                font-size: 1.5rem;
+            .profile-image {
+                flex: 0 0 auto;
+                width: 200px;
+                margin: 0 auto;
             }
         }
-    </style>
 
+            /* Para pantallas pequeñas */
+            @media (max-width: 480px) {
+                .project-buttons {
+                    flex-direction: column;
+                }
+                
+                .project-btn {
+                    width: 100%;
+                }
+            }
+            
+            /* Footer */
+            footer {
+                background: linear-gradient(135deg, var(--primary-dark), var(--dark));
+                color: white;
+                text-align: center;
+                padding: 3rem 0;
+                margin-top: 5rem;
+                position: relative;
+            }
+            
+            footer::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(90deg, transparent, var(--glass), transparent);
+            }
+            
+            footer p {
+                position: relative;
+                font-size: 1rem;
+            }
+            
+            .social-links {
+                display: flex;
+                justify-content: center;
+                gap: 1.5rem;
+                margin: 1.5rem 0;
+            }
+            
+            .social-links a {
+                color: white;
+                font-size: 1.5rem;
+                transition: transform 0.3s ease;
+            }
+            
+            .social-links a:hover {
+                transform: translateY(-5px) scale(1.1);
+            }
+            
+            @media (max-width: 768px) {
+                .projects-grid {
+                    grid-template-columns: 1fr;
+                    gap: 2rem;
+                }
+                
+                h1 {
+                    font-size: 2.2rem;
+                    margin: 2rem 0;
+                }
+                
+                .header-container {
+                    flex-direction: column;
+                    gap: 1rem;
+                }
+                
+                .logo {
+                    font-size: 1.5rem;
+                }
+            }
+    </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
