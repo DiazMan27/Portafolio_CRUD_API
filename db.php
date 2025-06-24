@@ -2,8 +2,8 @@
 $host = "localhost";
 // Especifica el servidor donde está alojada la base de datos. localhost se utiliza cuando el servidor y la base de datos están en la misma máquina.
 $db = "leandro_diaz_db1";
-$user = "leandro_diaz";
-$pass = "leandro_diaz2025";
+$user = "consultar al admin";
+$pass = "consultar al admin";
 // Variables de Configuración
 
 $conn = new mysqli($host, $user, $pass, $db);
