@@ -19,7 +19,8 @@ Archivo: add.php
 ![image](https://github.com/user-attachments/assets/0c44a6d1-e953-4e5f-89a7-491a52941970)
 
 Tube un error tambien que no me detectaba los metodos https
-![image](https://github.com/user-attachments/assets/f61a8415-a63d-45d0-8147-e6faf466624e)
+![image](https://github.com/user-attachments/assets/83cd4196-e67f-4132-a085-0a715db8081f)
+
 
 
 
