@@ -12,5 +12,7 @@
 
 Se uso la IA "Deepseek" para ver el tema de organizacion de archivos del proyecto, rutas de los diferentes archivos
 
+un ejemplo fue que le pedi que me ayudara, porque al subir una imagen cuando creaba un post, no me subia la imagen o me la subia pero no me detectaba el formato, por que lo que me sugirio verificar las rutas en el servidor de filezilla, y tambien el codigo con las rutas correctas y tambien los formatos que deberia admitir
+
 ## URL publica del proyecto
 https://teclab.uct.cl/~leandro.diaz/portafolio_crud_api/public.view.php
